@@ -15,9 +15,11 @@
     text-align: center;
     border: 1px solid black;
     margin-top: 1rem;
+
 }
 .header img {
   width: 100%;
+  height: 40rem;
 }
 .view{
   text-align: center;
@@ -29,8 +31,8 @@
 
 }
 .row img {
-width: 40rem;
-height: 40rem;
+width: 20rem;
+height: 20rem;
 }
 
 @media only screen and (max-width: 600px) {
