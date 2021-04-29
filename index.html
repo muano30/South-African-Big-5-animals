@@ -10,8 +10,12 @@
     <title>South Africa BIg Five Animals</title>
 </head>
 <body>
+
+  <div class="icon-bar">
+  <a class="active" href="#home"><i class="fa fa-home"></i></a>
+</div>
     <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Animal list</button>
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="#Elephant">Elephant</a>
           <a href="#Leopard">Leopard</a>
@@ -22,40 +26,46 @@
       </div>
 
 <div class="header">
-        <h1> South Africa Big Five Animals</h1>
-        <img src="images/The big five.jpg" alt="Animals">
+        <h1 id="home"> South Africa Big Five Animals</h1>
+        <img src="images/bigfive.jpg" alt="Animals">
     </div>
 
-<div class="row">
-  <div class="column">
-    <h2>Elephant</h2>
+  <div class="elephant">
+    <h2 id="Elephant">Elephant</h2>
     <img src="images/elephant.jpeg" atl="elephant">
     <p>In South Africa the Addo Elephant and Kruger National Park protect large herds. Due to rigorous conservation measures the Elephant population in South Africa has grown from a estimated 120 in 1920 in 4 locations, to 10 000 at 40 locations to date.</p>
   </div>
-  <div class="column">
-    <h2>Leopard</h2>
+  <div class="leopard">
+    <h2 id="Leopard">Leopard</h2>
     <img src="images/leopard.jpeg" alt="leopard">
     <p>Leopards have the largest distribution of any wild cat. ... In South Africa, leopards are found throughout the country except for the greater Karoo basin. They are found in the Western Cape, KwaZulu-Natal, Northern Cape, North West, Limpopo, Gauteng, Mpumalanga and the Eastern Cape.</p>
   </div>
-  <div class="column">
-    <h2>Lion</h2>
+  <div class="lion">
+    <h2 id="Lion">Lion</h2>
     <img src="images/lion.jpg" alt="lion">
     <p>Lions used to occur throughout South Africa but due to their merciless persecution in South Africa (due to conflict with humans and their interests), they are now mainly restricted to protected areas. They only occur naturally in the Northern and Eastern parts of South Africa.</p>
   </div>
-</div>
 
-<div class="row">
-  <div class="column">
-    <h2>Buffalo</h2>
+  <div class="buffalo">
+    <h2 id="Buffalo">Buffalo</h2>
     <img src="images/buffalo.jpeg" alt="buffalo">
     <p>There is only one species of buffalo in Africa, but four distinct subspecies exist: forest buffalo, West African savanna buffalo, Central African buffalo, and southern savanna buffalo. Savanna buffaloes are large, heavy cow-like animals.</p>
   </div>
-  <div class="column">
-    <h2>Rhino</h2>
+  <div class="rhino">
+    <h2 id="Rhino">Rhino</h2>
     <img src="images/rhino.jpeg" alt="rhino">
     <p>White rhinos mainly live in South Africa, but they have also been reintroduced to Botswana, Namibia, Swaziland, and Zimbabwe. ... South Africa houses 40% of the total black rhino population. There are some black rhinos in the region spread between Cameroon and Kenya</p>
   </div>
-</div>
-    
+
+<footer class="footer">
+  <ul>
+  <li><a href="#Elephant">Elephant</a></li>
+  <li><a href="#Leopard">Leopard</a></li>
+  <li><a href="#Lion">Lion</a></li>
+  <li><a href="#Buffalo">Buffalo</a></li>
+  <li><a href="#Rhino">Rhino</a></li>
+  <li><a class="anchor" href="https://en.wikipedia.org/wiki/Big_five_game#:~:text=In%20Africa%2C%20the%20Big%20Five,%2C%20elephant%2C%20and%20Cape%20buffalo.&text=Each%20of%20the%20big%20five,famous%20of%20Africa's%20large%20animals.">About</a></li>
+  </ul>
+</footer>    
 </body>
 </html>
