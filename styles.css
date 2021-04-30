@@ -6,19 +6,19 @@
 
 h1 {
   position: absolute;
-  right: 25rem;
+  right: 35rem;
   top: 5rem;
   top: 0;
   padding-top: 6rem;
 }
-
+/* 
 @media only screen and (max-width: 400px) {
   h1 {
     right: 25rem;
     top: 5rem;
     padding: 6rem;
-  }
-}
+  } */
+/* } */
 
 .header {
     text-align: center;
@@ -26,7 +26,7 @@ h1 {
 }
 .header img {
   width: 100%;
-  height: 42rem;
+  height: 50rem;
 }
 
 .dropbtn {
@@ -84,28 +84,27 @@ p{
 
 h2 {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 8rem;
 }
 
 .elephant {
-  padding: 5rem;
+  padding: 8rem;
 }
 .elephant img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 20rem;
   height: 20rem;
   border-radius: 20px;
-  background-image: url("images/elephant.jpeg");
   
 }
-.elephant img:hover {
+/* .elephant img:hover {
   background-image: url("images/elephantsound.png");
-  /* opacity: 0.3; */
+   /* opacity: 0.3;  */
 
-}
+ /* }   */ 
 
 .leopard {
   margin-top: 0.1rem;
@@ -115,7 +114,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:2rem;
+  margin-top:5rem;
   width: 20rem;
   height: 20rem;
   border-radius: 20px;
@@ -129,14 +128,14 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 20rem;
   height: 20rem;
   border-radius: 20px;
   
 }
 .buffalo {
-  margin-top: 1rem;
+  margin-top: 1rem; 
   padding: 1rem;
 }
 .buffalo img {
@@ -165,9 +164,9 @@ h2 {
 }
 
 .footer {
-  padding: 2rem;
+  padding: 8rem;
   background-color:gray;
-  margin-top: 0.rem;
+  margin-top: 2rem;
   border: 1px solid black;
 }
 
@@ -176,7 +175,7 @@ h2 {
   list-style-type: none;
   display: flex;
   column-gap: 2rem;
-  margin-left: 10rem;
+  margin-left: 15rem;
   font-size: 2rem;
 }
  .footer ul li a {

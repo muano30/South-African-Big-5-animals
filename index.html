@@ -7,7 +7,7 @@
     <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>South Africa BIg Five Animals</title>
+    <title>SOUTH AFRICA BIG FIVE ANIMALS</title>
 </head>
 <body>
 
@@ -26,34 +26,38 @@
       </div>
 
 <div class="header">
-        <h1 id="home"> South Africa Big Five Animals</h1>
+        <h1 id="home">SOUTH AFRICA BIG FIVE ANIMALS</h1>
         <img src="images/bigfive.jpg" alt="Animals">
     </div>
 
-  <div class="elephant">
+  <div class="elephant" id="eleph" onmouseover="playSound('mySound')" onmouseout="stopSound('mysound')">
     <h2 id="Elephant">Elephant</h2>
-    <img src="images/elephant.jpeg" atl="elephant">
+    <img id="elephant" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/elephant.jpeg" atl="elephant" >
     <p>In South Africa the Addo Elephant and Kruger National Park protect large herds. Due to rigorous conservation measures the Elephant population in South Africa has grown from a estimated 120 in 1920 in 4 locations, to 10 000 at 40 locations to date.</p>
+    <audio id="mySound" src="sound/y2mate.com - Elephant sound effect no copyright.mp3">
   </div>
+
   <div class="leopard">
     <h2 id="Leopard">Leopard</h2>
-    <img src="images/leopard.jpeg" alt="leopard">
+    <img id="leopard" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/leopard.jpeg" alt="leopard">
     <p>Leopards have the largest distribution of any wild cat. ... In South Africa, leopards are found throughout the country except for the greater Karoo basin. They are found in the Western Cape, KwaZulu-Natal, Northern Cape, North West, Limpopo, Gauteng, Mpumalanga and the Eastern Cape.</p>
   </div>
+
   <div class="lion">
     <h2 id="Lion">Lion</h2>
-    <img src="images/lion.jpg" alt="lion">
+    <img id="lion" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/lion.jpg" alt="lion">
     <p>Lions used to occur throughout South Africa but due to their merciless persecution in South Africa (due to conflict with humans and their interests), they are now mainly restricted to protected areas. They only occur naturally in the Northern and Eastern parts of South Africa.</p>
   </div>
 
   <div class="buffalo">
     <h2 id="Buffalo">Buffalo</h2>
-    <img src="images/buffalo.jpeg" alt="buffalo">
+    <img id="buffalo" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/buffalo.jpeg" alt="buffalo">
     <p>There is only one species of buffalo in Africa, but four distinct subspecies exist: forest buffalo, West African savanna buffalo, Central African buffalo, and southern savanna buffalo. Savanna buffaloes are large, heavy cow-like animals.</p>
   </div>
+
   <div class="rhino">
     <h2 id="Rhino">Rhino</h2>
-    <img src="images/rhino.jpeg" alt="rhino">
+    <img id="rhino" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/rhino.jpeg" alt="rhino">
     <p>White rhinos mainly live in South Africa, but they have also been reintroduced to Botswana, Namibia, Swaziland, and Zimbabwe. ... South Africa houses 40% of the total black rhino population. There are some black rhinos in the region spread between Cameroon and Kenya</p>
   </div>
 
@@ -64,7 +68,7 @@
   <li><a href="#Lion">Lion</a></li>
   <li><a href="#Buffalo">Buffalo</a></li>
   <li><a href="#Rhino">Rhino</a></li>
-  <li><a class="anchor" href="https://en.wikipedia.org/wiki/Big_five_game#:~:text=In%20Africa%2C%20the%20Big%20Five,%2C%20elephant%2C%20and%20Cape%20buffalo.&text=Each%20of%20the%20big%20five,famous%20of%20Africa's%20large%20animals.">About</a></li>
+  <li><a class="anchor" href="https://en.wikipedia.org/wiki/Big_five_game#:~:text=In%20Africa%2C%20the%20Big%20Five,%2C%20elephant%2C%20and%20Cape%20buffalo.&text=Each%20of%20the%20big%20five,famous%20of%20Africa's%20large%20animals." target="_blank">About</a></li>
   </ul>
 </footer>    
 </body>

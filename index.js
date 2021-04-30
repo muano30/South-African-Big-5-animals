@@ -18,3 +18,56 @@ function myFunction() {
       }
     }
 }
+
+//  for image hover
+
+function playSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.play();
+}
+
+function stopSound(soundobj) {
+  var thissound = document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+
+
+function setNewImage() {
+  document.getElementById("elephant").src="images/elephantsound.png";
+}
+
+function setOldImage() {
+  document.getElementById("elephant").src="images/elephant.jpeg";
+ }
+
+// function setNewImage() {
+//   document.getElementById("leopard").src="images/leopardsound.jpg";
+// }
+
+// function setOldImage() {
+//   document.getElementById("leopard").src="leopard.jpeg";
+// }
+
+// function setNewImage() {
+//   document.getElementById("lion").src="images/lionroar.jpg";
+// }
+
+// function setOldImage() {
+//   document.getElementById("lion").src="images/lion.jpg";
+// }
+// function setNewImage() {
+//   document.getElementById("buffalo").src="images/buffalosound.jpg";
+// }
+
+// function setOldImage() {
+//   document.getElementById("buffalo").src="images/buffalo.jpeg";
+// }
+
+// function setNewImage() {
+//   document.getElementById("rhino").src="images/rhinosound.jpg";
+// }
+
+// function setOldImage() {
+//   document.getElementById("rhino").src="images/rhino.jpeg";
+// }
