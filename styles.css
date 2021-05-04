@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .ele {
   width: 24rem;
   height: 24rem;
@@ -222,6 +221,7 @@ h2 {
 position: fixed;
 width: 100%;
 }
+
  .navbar {
   overflow: hidden;
   background-color: #333;
