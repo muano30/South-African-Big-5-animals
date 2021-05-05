@@ -17,7 +17,7 @@ function stopSound(soundobj) {
 
 const setNewImage = () => {
   document.getElementById("elephant").src="images/elephantsound.png";
-  console.log('new')
+  console.log('me')
 }
 
 const setOldImage = () => {
